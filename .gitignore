@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Notebook/editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Training data and model artifacts: keep large/private data out of Git
+data/
+datasets/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+
+# Experiment outputs
+runs/
+wandb/
+mlruns/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
